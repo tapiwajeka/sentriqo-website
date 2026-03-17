@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* ─── Sentriqo Brand Design Tokens ─────────────────────────────────────── */
+@theme inline {
+  /* Colors */
+  --color-primary:        #0F3C7A;
+  --color-primary-dark:   #0A2540;
+  --color-primary-mid:    #1F6FB2;
+  --color-primary-light:  #E8F1FB;
+  --color-accent:         #00A3FF;
+
+  /* Typography */
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-poppins);
+
+  /* Spacing — 4-pt scale */
+  --spacing-1:  4px;
+  --spacing-2:  8px;
+  --spacing-4:  16px;
+  --spacing-6:  24px;
+  --spacing-8:  32px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+  --spacing-24: 96px;
+}
+
+/* ─── Base Reset ────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #fff;
+  color: #0A2540;
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Utility Classes ───────────────────────────────────────────────────── */
+.section-pad { padding-top: 96px; padding-bottom: 96px; }
+.container-xl {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* ─── Gradient helpers ──────────────────────────────────────────────────── */
+.gradient-hero {
+  background: linear-gradient(135deg, #0A2540 0%, #0F3C7A 50%, #1F6FB2 100%);
+}
+.gradient-cta {
+  background: linear-gradient(90deg, #0F3C7A 0%, #00A3FF 100%);
+}

@@ -17,9 +17,9 @@ const translations = {
       heading1: "Securing What",
       heading2: "Matters Most",
       body: "Professional armed & unarmed security services, CCTV surveillance, VIP protection, and event security — designed to keep your people, assets, and premises safe around the clock.",
-      stat1Value: "500+",
+      stat1Value: "30+",
       stat1Label: "Sites Protected",
-      stat2Value: "15+",
+      stat2Value: "10+",
       stat2Label: "Years Experience",
       stat3Value: "24/7",
       stat3Label: "Response Time",
@@ -39,9 +39,9 @@ const translations = {
 
     // ── Trust strip ──────────────────────────────────────────
     trust: [
-      { value: "500+", label: "Protected Sites" },
-      { value: "15+", label: "Years of Service" },
-      { value: "2,000+", label: "Trained Officers" },
+      { value: "30+", label: "Protected Sites" },
+      { value: "10+", label: "Years of Service" },
+      { value: "100+", label: "Trained Guards" },
       { value: "24/7", label: "Rapid Response" },
       { value: "100%", label: "Licensed & Insured" },
     ],
@@ -95,7 +95,7 @@ const translations = {
       body: "We combine experienced personnel with advanced technology to deliver security solutions that are proactive, not reactive.",
       cardHeading: "Committed to Your Safety",
       cardBody:
-        "For over 15 years Sentriqo has been the trusted security partner for corporates, hospitality groups, retail chains, and private estates across the region.",
+        "For over 10 years Sentriqo has been the trusted security partner for corporates, hospitality groups, retail chains, and private estates across the region.",
       items: [
         {
           title: "Fully Licensed & Accredited",
@@ -219,7 +219,7 @@ const translations = {
       badge: "Our Story",
       heading: "About Sentriqo Security",
       subheading:
-        "Over 15 years of protecting people, assets, and communities — driven by an unwavering commitment to safety and excellence.",
+        "Over 10 years of protecting people, assets, and communities — driven by an unwavering commitment to safety and excellence.",
       missionBadge: "Our Mission",
       missionTitle: "Protecting What Matters Through Professional Excellence",
       missionBody1:
@@ -227,9 +227,9 @@ const translations = {
       missionBody2:
         "We invest heavily in training, technology, and people — because we believe that great security comes from great people equipped with the right tools and knowledge to act decisively when it counts most.",
       stats: [
-        { value: "15+", label: "Years in Operation" },
-        { value: "500+", label: "Protected Sites" },
-        { value: "2,000+", label: "Trained Officers" },
+        { value: "10+", label: "Years in Operation" },
+        { value: "30+", label: "Protected Sites" },
+        { value: "100+", label: "Trained Guards" },
         { value: "ISO 9001", label: "Certified Quality" },
       ],
       valuesBadge: "What Drives Us",
@@ -264,7 +264,7 @@ const translations = {
         { year: "2015", event: "Launched dedicated VIP & Executive Protection division." },
         { year: "2018", event: "Introduced K9 patrol units and AI-assisted CCTV monitoring." },
         { year: "2021", event: "Achieved ISO 9001 quality management certification." },
-        { year: "2024", event: "500+ active sites protected with over 2,000 deployed officers." },
+        { year: "2024", event: "30+ active sites protected with over 100 deployed guards." },
       ],
       teamBadge: "Leadership",
       teamTitle: "Meet Our Team",
@@ -432,9 +432,9 @@ const translations = {
       heading1: "保护您",
       heading2: "最重要的一切",
       body: "专业武装及非武装安保服务、闭路电视监控、贵宾保护和活动安保——全天候守护您的人员、资产与场所安全。",
-      stat1Value: "500+",
+      stat1Value: "30+",
       stat1Label: "受保护场所",
-      stat2Value: "15+",
+      stat2Value: "10+",
       stat2Label: "年丰富经验",
       stat3Value: "24/7",
       stat3Label: "快速响应",
@@ -453,9 +453,9 @@ const translations = {
     },
 
     trust: [
-      { value: "500+", label: "受保护场所" },
-      { value: "15+", label: "服务年限" },
-      { value: "2,000+", label: "训练有素的警卫" },
+      { value: "30+", label: "受保护场所" },
+      { value: "10+", label: "服务年限" },
+      { value: "100+", label: "训练有素的警卫" },
       { value: "24/7", label: "快速响应" },
       { value: "100%", label: "持证合规" },
     ],
@@ -623,7 +623,7 @@ const translations = {
       badge: "我们的故事",
       heading: "关于Sentriqo安保",
       subheading:
-        "15年来守护人员、资产与社区安全——以坚定不移的安全与卓越承诺驱动前行。",
+        "10年来守护人员、资产与社区安全——以坚定不移的安全与卓越承诺驱动前行。",
       missionBadge: "我们的使命",
       missionTitle: "以专业卓越守护重要事物",
       missionBody1:
@@ -631,9 +631,9 @@ const translations = {
       missionBody2:
         "我们在培训、技术和人才上大力投入——因为我们相信，优秀的安保源于配备正确工具和知识、在关键时刻果断行动的优秀人才。",
       stats: [
-        { value: "15+", label: "运营年限" },
-        { value: "500+", label: "受保护场所" },
-        { value: "2,000+", label: "训练有素的警卫" },
+        { value: "10+", label: "运营年限" },
+        { value: "30+", label: "受保护场所" },
+        { value: "100+", label: "训练有素的警卫" },
         { value: "ISO 9001", label: "质量认证" },
       ],
       valuesBadge: "驱动我们的力量",
@@ -652,7 +652,7 @@ const translations = {
         { year: "2015", event: "推出专属贵宾及高管保护部门。" },
         { year: "2018", event: "引入警犬巡逻队及AI辅助闭路电视监控。" },
         { year: "2021", event: "获得ISO 9001质量管理认证。" },
-        { year: "2024", event: "500多个活跃受保护场所，超过2000名在岗警卫。" },
+        { year: "2024", event: "30多个活跃受保护场所，超过100名在岗警卫。" },
       ],
       teamBadge: "领导团队",
       teamTitle: "认识我们的团队",
